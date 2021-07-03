@@ -61,7 +61,7 @@ public class Main extends Application {
                                 String newValue) {
                 String size = newValue.replaceAll("[^\\d.]", "");
                 sizeTxt.setText(size);
-                x = (210 - Double.parseDouble(size)) * 935 / 60 - 10;
+                x = (Double.parseDouble(size)-150) * 935 / 60 - 10;
                 System.out.println("changed size :" + x + " (" + newValue + ")");
                 Circle spot = new Circle(10);
                 spot.setFill(Color.GREEN);
