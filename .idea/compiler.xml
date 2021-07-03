@@ -19,8 +19,8 @@
         <module name="BodyMassIndex" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="BodyMassIndex" target="8" />
+    <bytecodeTargetLevel target="11">
+      <module name="BodyMassIndex" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
